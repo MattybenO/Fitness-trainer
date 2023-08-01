@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan' sans-serif;
+    scroll-behavior: smooth;
+    /* background-color: #fff; */
+}
+
+.header{
+    background-image: url(images/Model.png);
+    height: 100%;
+    width: 100%;
+    left: 12%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 40px;
+    /* background-size: cover; */
+    display: flex;
+    justify-content: space-between;
+}
+.header .right a{
+    font-size: 12px;
+    color: #222;
+    text-decoration: none;
+    padding-right: 20px;
+    
+}
+.header .left a {
+    font-size: 15px;
+    color: #222;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+
+.middle h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tangerine', serif;
+
+}
+
+.start .text {
+    padding-top: 200px;
+}
+
+.start .text h3 {
+    color: #ffa500;
+}
+
+.start .text h1 {
+    font-size: 20px;
+}
+
+.start .text p {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+
+.text .btn {
+    padding: 10px 40px;
+    background-color: #ffa500;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.text h5 {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+h5 i .left {
+    font-size: 40px;
+}
+
+.text .icon {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.text .icon i {
+    padding-right: 25px;
+}
+
+.start .rotate {
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    line-height: 50px;
+}
+
+.left .rotate span {
+    color: #ffa500;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.rotate .push {
+    padding-top: 90px;
+}
+.mention {
+    height: 100%;
+    width: 100%;
+}
+
+.mention img {
+    height: 90px;
+    width: 100vw;
+}
+
+.intro {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.intro .text2 {
+    max-width: 60%;
+}
+
+.text2 h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.text2 p {
+    font-size: 15px;
+}
+
+.text2 p.FIRST {
+    font-size: 20px;
+    line-height: 28px;
+    word-spacing: 2px;
+    padding-top: 20px;
+} 
+
+.certificate {
+    padding-left: 20px;
+}
+
+
+.about {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.about .right {
+    margin-top: 200px;
+    padding-right: 50px;
+    padding-left: 20px;
+    width: 50%;
+}
+.right h6{
+    padding-bottom: 5px;
+}
+.right .P1{
+    margin-top: 40px;
+    padding-bottom: 10px;
+    line-height: 28px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+.right .P2{
+    font-size: 20px;
+    line-height: 28px;
+    word-spacing: 2px;
+}
+
+.right .P3{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 28px;
+    word-spacing: 2px;
+}
+
+.right button {
+    padding: 10px 30px;
+    background: #ffa500;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.about .left {
+    height: 80%;
+    width: 50%;
+}
+
+.left img {
+    background: #000000;
+}
+
+
+.left button {
+    background: #ffa500;
+    padding: 50px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50%;
+}
+
+.education {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.education-training h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.education-training button {
+    padding: 5px;
+    border: none;
+    background: #ffa500;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.education-training h4 {
+    padding-top: 10px;
+}
+
+.education-training h5 {
+    padding-bottom: 5px;
+    color: darkgrey;
+}
+.education-training p {
+    font-size: 20px;
+    line-height: 28px;
+    word-spacing: 2px;
+}
+.education-training button.bty {
+    background: #000000;
+    color: #fff;
+}
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    color: #ffa500;
+    padding: 40px 40px;
+    background: #000;
+    text-align: center;
+    
+}
+
+.starts-wrap p {
+    color: #fff;
+}
+
+.gallery {
+    width: 100vw;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.gallery .head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery .head h6 {
+    color: #ffa500;
+    font-size: 15px;
+}
+
+.gallery2 .CTA {
+    font-size: 30px;
+    background: #000000;
+    height: 100px;
+    border-radius: 5px;
+    color: #ffa500;
+    padding: 40px 0px 30px 50px;
+    width: 87vw;
+}
+.box {
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.box .box-ba {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00ffff;
+    width: 360px;
+    padding:15px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.box-ba .box-before {
+    margin-right: 5px;
+}
+
+.cta {
+    padding: 10px 70px ;
+    width: 100%;
+    height: 100vh;
+}
+
+.ctta {
+    display: flex;
+    background: #8cbbcfec;
+    width: 100%;
+    height: 90vh;
+    padding: 40px 0px 30px 50px;
+}
+
+.ctta .text-ctaa {
+    padding: 40px;
+}
+
+.text-ctaa h1 {
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.text-ctaa p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.text-ctaa button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00ffff;
+    cursor: pointer;
+}
+
+
+.pakages {
+    height: 100%;
+    width: 100vw;
+    padding: 50px;
+}
+.pakages .heading {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.pakages .cloting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cloting .title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.pakages .coaching {
+    background-color: #f5dbe3;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 40px;
+    margin-right: 10px;
+}
+
+.coaching p {
+    margin-top: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 40px;
+ 
+}
+
+.coaching button {
+    padding: 10px 20px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.description{
+    background-color: #ffa500;
+    width: 100vw;
+    height: 100%;
+    margin: 50px ;
+}
+
+.tex  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tex .g {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tex .g #play {
+    font-size: 60px;
+}
+.tex .g h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.g .btn {
+    margin-top: 20px;
+}
+.g button {
+    padding: 10px 15px;
+    font-size: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+.g #bl {
+    background: #000;
+    margin-right: 10px;
+    color: #fff;
+}
+
+
+.faqs {
+    padding: 50px;
+}
+
+.faqs h1,
+.faqs h5{
+    text-align: center;
+}
+
+
+.btt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+    border-radius: 5px;
+}
+.btt2 {
+    background-color: #00ffff;
+    padding: 10px 10px;
+}
+
+.btt2 button {
+    border: none;
+    background-color: #00ffff;
+}
+
+.faqs .pre {
+    word-spacing: 2px;
+    line-height: 28px;
+    background: #00ffff;
+    padding: 10px 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pre h3 {
+    margin: 20px 0px 20px;
+}
+
+.hr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.testimonials {
+    height: 100vh;
+    width: 100%;
+}
+
+.testimonials .bg {
+    height: 90%;
+    background: #00ffff;
+}
+
+.bg .text {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bg .testi {
+    display: flex;
+    align-items: center;
+    margin: 80px 120px 80px 120px;
+    justify-content: space-around; 
+}
+.testi .input {
+    display: flex;
+    padding: 20px;
+    background: #ffffff;
+    margin-left: 10px;
+}
+
+.input .texx {
+    margin-left: 10px;
+}
+
+.testimonials .ora {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #ffa500;
+    margin: 80px 120px 80px 120px;
+    padding: 25px;
+}
+
+.blog {
+    height: 100%;
+    width: 100vw;
+    padding: 60px;
+}
+
+.blog .bl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bl .hr {
+    color: #ffa500;
+    line-height: 30px;
+    /* margin-right: 350px; */
+}
+
+.blog .blo {
+    height: 90%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
+
+.blo .blos {
+    margin-right: 40px;
+}
+.blo .blos img {
+    height: 100%;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.blos h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blos p {
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.rec {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.rec .img {
+    background: #c97910;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.rec .tte h5{
+    font-weight: lighter;
+}
+
+.blo .popular {
+    height: 100%;
+}
+ .popular h2 {
+    margin-bottom: 35px;
+    word-spacing: 15px;
+ }
+
+ .popular .recta {
+    margin-top: 70px;
+ }
+.recta .rect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.rect .tte p {
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.rect .tte h3{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.rect .immm{
+    background: #979797;
+    height: 85px;
+    width: 220px;
+    margin-left: 4px;
+    border-radius: 5px;
+}
+
+.schedule {
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+
+.schedule h2 {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.con .shed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shed .she img {
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.shed .she h2 {
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+.shed .she p,
+.shed .she p.p1 {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.shed .she {
+    margin-right: 80px;
+    text-align: center;
+}
+
+.shed .cal img {
+    height: 450px;
+}
+
+.subscription{
+    background-color: #ffa500;
+}
+
+.subs {
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.subs .subsc {
+    text-align: center;
+    color: #ffffff;
+}
+
+.subs .subsc p {
+    line-height: 25px;
+    word-spacing: 3px;
+    padding: 20px 0 40px 0;
+}
+
+.subs .subsc input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.subs .subsc button {
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #000;
+}
+.fcta {
+    padding: 50px 70px;
+}
+.fcta .pro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.fcta .pro a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.fcta .foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.foot .ic i {
+    margin-right: 20px;
+}
+
+
+
